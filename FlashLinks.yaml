@@ -11,13 +11,15 @@ proxies:
     port: 443
     password: 2650c28b66
     udp: true
+
   - name: "🇯🇵 日本 01"
     type: trojan
     server: jp.ncl.pw
     port: 443
     password: e9117831c2
     udp: true
-proxy-groups:
+    
+    proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
